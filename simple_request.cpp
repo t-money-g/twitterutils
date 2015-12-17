@@ -19,8 +19,6 @@ string oauth_protected_resource = "https://api.twitter.com/1.1/friends/list.json
 
 string oauth_protected_resource_params = "count=32&screen_name=username&skip_status=true&include_user_entities=false";
 
-
-
 std::string getUserString(std::string prompt) {
     std::cout << prompt << " ";
 
